@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فرسان العليا</title>
+
+  <!-- icofont-css-link -->
+  <link rel="stylesheet" href="css/icofont.min.css">
+  <!-- Owl-Carosal-Style-link -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- Bootstrap-Style-link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Aos-Style-link -->
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- Coustome-Style-link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-Style-link -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body class="rtl">
+
+  <!-- Page-wrapper-Start -->
+  <div class="page_wrapper">
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- VIDEO MODAL -->
+    <div class="modal fade youtube-video" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button id="close-video" type="button" class="button btn btn-default text-right" data-dismiss="modal">
+            <i class="icofont-close-line-circled"></i>
+          </button>
+          <div class="modal-body">
+            <div id="video-container" class="video-container">
+              <!-- <iframe id="youtubevideo" src="#" width="640" height="360" frameborder="0" allowfullscreen></iframe> -->
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="purple_backdrop"></div>
+
+  </div>
+
+  <div>
+     <!-- Header Start -->
+  <header>
+    <!-- container start -->
+    <div class="container">
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo_trans.png" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <!-- <i class="icofont-navigation-menu ico_menu"></i> -->
+            <div class="toggle-wrap">
+              <span class="toggle-bar"></span>
+            </div>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" style="direction: rtl;">
+            <!-- secondery menu start -->
+            <li class="nav-item has_dropdown">
+              <a class="nav-link" href="./index.html">الرئيسيه</a>
+
+            </li>
+            <!-- secondery menu end -->
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">عنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fqaa">مشاريعنا              </a>
+            </li>
+
+
+            <!-- secondery menu end -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل معنا</a>
+            </li>
+
+            <li>
+              <div class="MuiGrid-root MuiGrid-container css-3zq6jr" style="width:auto;padding:10px;align-items:cente;display: flex;">
+                <div style="cursor:pointer;padding:10px">
+                  <a href="index-en.html"><img alt="lkjhvghjkl" fetchpriority="high" width="25"
+                    height="25" decoding="async" data-nimg="1" style="color:transparent"
+                    src="./images/en-flag.png" /></a>
+                  </div>
+                <div style="cursor:pointer;padding:10px">
+                 <img alt="lkjhvghjkl" fetchpriority="high" width="25"
+                    height="20" decoding="async" data-nimg="1" style="color:transparent"
+                    src="./images/ar-flag.png" />
+                  </div>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+      <!-- navigation end -->
+    </div>
+    <!-- container end -->
+  </header>
+    <!-- <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg" style="direction:rtl">
+          <div class="pair-mob-nav"><a class="navbar-brand" href="#"><img alt="lkjhvghjkl" fetchpriority="high"
+                width="150" height="51" decoding="async" data-nimg="1" style="color:transparent"
+                src="./images/logo_trans.png"></a><button
+              class="navbar-toggler hide_desc" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation"><span class="navbar-toggler-icon">
+                <div class="toggle-wrap"><span class="toggle-bar"></span></div>
+              </span></button></div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto show"
+              style="direction:rtl;justify-content:end;flex-direction:row;padding:0 10px">
+              <li class="nav-item has_dropdown"><a class="nav-link" href="#home">الرئيسيه</a></li>
+              <li class="nav-item"><a class="nav-link" href="#aboutus">عن الشركه</a></li>
+              <li class="nav-item"><a class="nav-link" href="#fqaa">مشاريعنا</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact"> واصل معنا</a></li>
+               <div class="MuiGrid-root MuiGrid-container css-3zq6jr" style="width:auto;padding:10px;align-items:cente;display: flex;">
+                <div style="cursor:pointer;padding:10px"><img alt="lkjhvghjkl" fetchpriority="high" width="25"
+                    height="25" decoding="async" data-nimg="1" style="color:transparent"
+                    src="./images/en-flag.png"></div>
+                <div style="cursor:pointer;padding:10px"><img alt="lkjhvghjkl" fetchpriority="high" width="25"
+                    height="20" decoding="async" data-nimg="1" style="color:transparent"
+                    src="./images/ar-flag.png"></div>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header> --> 
+    <section style="text-align:center" class="pair_home" id="home">
+      <div>
+        <h2>مرحبًا بك في فرسان العليا</h2>
+        <p>شركه فرسان العليا لأنشاء منازل كرفانات علي اعلي مستوي من الجوده بمحاكاه الطراز العالمي.
+          تأسس هذا الصرح لصناعه الكرفانات والصوالين الفاخرة الثابته والمتحركة عام 2002.</p>
+      </div>
+      
+      <div id="frmae_slider" class="owl-carousel owl-theme cus">
+        <img src="images/image1.png" />
+        <img src="images/image2.png" />
+        <img src="images/image3.png" />
+      </div>
+    </section>
+    <section class="pair_vid" style="direction:rtl">
+      <div class="pair_content2">
+        <div class="video-container">
+          <iframe width="100%" height="315"
+            src="https://www.youtube.com/embed/npS1rR27SRs?si=Q2nNXc6jZKwrWjfg?autoplay=1&mute=1" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""></iframe>
+          </div>
+        <div class="left_side">
+          <h2>التميز هدفنا</h2>
+          <p>تتميز المؤسسه في منتجها بالجوده والمتانه واختيار المواد الافضل منذ التأسيس. وبناء علي متطلبات العصر الحديث
+            في الإدارة والتنمية تقدم المؤسسة اليوم مجموعه متكامله من المنتجات والخدمات للتخطيط والتطوير وإنجاز اي
+            استراتيجية للشركات والمؤسسات العالميه.</p>
+        </div>
+      </div>
+    </section>
+    <section class="pair_carousel row_am interface_section" id="fqaa">
+      <div class="container-fluid">
+          <!-- Beautifull-interface-Section start -->
+  <section class="row_am interface_section">
+    <!-- container start -->
+    <div class="container-fluid">
+      <div class="section_title">
+        <!-- h2 -->
+        <h2>مشاريعنا</h2>
+        <!-- p -->
+        <p>
+          تم انشاء اكثر من 150 كرفان بجميع التجهيوات <br> التي تناسب المعايير العالميه والتي تتمتع برفاهيه عاليه.
+        </p>
+      </div>
+
+      <!-- screen slider start -->
+      <div class="screen_slider" style="min-height: 200px;">
+        <div id="screen_slider" class="owl-carousel owl-theme custom">
+          <div class="item">
+            <div class="screen_frame_img">
+              <img src="images/caeavans/موسسة فرسان-07.png" alt="image">
+            </div>
+          </div>
+          <div class="item">
+            <div class="screen_frame_img">
+              <img src="images/caeavans/موسسة فرسان-02.png" alt="image">
+            </div>
+          </div>
+          <div class="item">
+            <div class="screen_frame_img">
+              <img src="images/caeavans/موسسة فرسان-03.png" alt="image">
+            </div>
+          </div>
+          <div class="item">
+            <div class="screen_frame_img">
+              <img src="images/caeavans/موسسة فرسان-04.png" alt="image">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="screen_frame_img">
+              <img src="images/caeavans/موسسة فرسان-05.png" alt="image">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="screen_frame_img">
+              <img src="images/caeavans/موسسة فرسان-06.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- screen slider end -->
+    </div>
+    <!-- container end -->
+  </section>
+  <!-- Beautifull-interface-Section end -->
+      </div>
+    </section>
+    <section style="direction:rtl" id="about">
+      <div>
+        <div class="bred_crumb" id="aboutus">
+          <div class="container"><span class="banner_shape1"> <img alt="image" loading="lazy" width="20" height="20"
+                decoding="async" data-nimg="1" style="color:transparent"
+                src="./images/banner-shape1.png">
+            </span><span class="banner_shape2"> <img alt="image" loading="lazy" width="20" height="20" decoding="async"
+                data-nimg="1" style="color:transparent"
+                src="./images/banner-shape3.png">
+            </span><span class="banner_shape3"> <img alt="image" loading="lazy" width="20" height="20" decoding="async"
+                data-nimg="1" style="color:transparent"
+                src="./images/banner-shape3.png"> </span>
+            <div class="bred_text">
+              <h1>عن الشركه</h1>
+            </div>
+          </div>
+        </div>
+        <section class="row_am app_solution_section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="app_text">
+                  <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <h2>من نحن </h2>
+                  </div>
+                  <p data-aos="fade-up" data-aos-duration="1500">واليوم تعد هذه المؤسسة مصنعا رائداً في مجال صناعة
+                    الكرفانات والصوالين الفاخره الثابته والمتحركة ومتخصصا فيها ويساعد علي إنجاز الكثير من الأعمال .
+                    للديوان الملكي وبعض الشخصيات المهمه وبعض القطاعات الحكوميه ولدي المؤسسه القدره علي تحويل وتعديل بعض
+                    المقطورات والكرفانات كتصميم خارجي او داخلي. وقد المهندسون القائمون علي أعمالنا أن منتجاتنا هي الافضل
+                    علي مر الزمان حيث تعود خبراتهم الي أكثر من 26 سنه في إنتاج وصناعه الكرفانات والصوالين الفاخرة
+                    الثابته والمتحركة. وتتميز المؤسسه في منتجها بالجوده والمتانه واختيار المواد الافضل منذ التأسيس.
+                    وبناء علي متطلبات العصر الحديث في الإدارة والتنمية تقدم المؤسسة اليوم مجموعه متكامله من المنتجات
+                    والخدمات للتخطيط والتطوير وإنجاز اي استراتيجية للشركات والمؤسسات العالميه.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="app_images" data-aos="fade-in" data-aos-duration="1500">
+                  <ul>
+                    <li>
+                      <div class="video-container" style="padding:0">
+                        <iframe width="100%" height="315"
+                          src="https://www.youtube.com/embed/C-NxBMIC22o?si=zzXqGw1mKhxo4uqc?autoplay=1&mute=1"
+                          title="YouTube video player" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen=""></iframe>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section style="direction:rtl" id="contact">
+      <div>
+        <div class="bred_crumb" id="contact">
+          <div class="container"><span class="banner_shape1"> <img alt="image" loading="lazy" width="25" height="16"
+                decoding="async" data-nimg="1" style="color:transparent"
+                src="./images/banner-shape1.png">
+            </span><span class="banner_shape2"> <img alt="image" loading="lazy" width="18" height="9" decoding="async"
+                data-nimg="1" style="color:transparent"
+                src="./images/banner-shape2.png">
+            </span><span class="banner_shape3"> <img alt="image" loading="lazy" width="26" height="26" decoding="async"
+                data-nimg="1" style="color:transparent"
+                src="./images/banner-shape3.png"> </span>
+            <div class="bred_text">
+              <h1>تواصل معنا</h1>
+              <p>إذا كان لديك استفسار، يرجى الاتصال بنا، وسوف نقوم بالرد بسرعة.</p>
+            </div>
+          </div>
+        </div>
+        <section class="contact_page_section">
+          <div class="container">
+            <div class="contact_inner">
+              <div class="contact_form">
+                <div class="section_title">
+                  <h2>أترك لنا رساله</h2>
+                  <p>املأ النموذج أدناه، وسيعود فريقنا قريبًا</p>
+                </div>
+                <form action="#" id="myForm">
+                  <div class="form-group"><input type="text" name="name" placeholder="الأسم" class="form-control"
+                      required="" value=""></div>
+                  <div class="form-group"><input type="email" name="email" placeholder="البريد الالكتروني"
+                      class="form-control" required="" value=""></div>
+                  <div class="form-group"><input required="" type="phone" name="phone" placeholder="الهاتف"
+                      class="form-control" value=""></div>
+                  <div class="form-group"><textarea required="" placeholder="رسالتك" name="message"
+                      class="form-control"></textarea></div>
+                  <div class="form-group mb-0 center-btn"><button type="submit" class="btn puprple_btn">ارسال</button></div>
+                  <b class="text_m" style="color:red;text-align:center;display:block"></b>
+                </form>
+                
+              </div>
+              <div class="contact_info">
+                <ul class="contact_info_list">
+                  <li>
+                    <div class="img"><img alt="image" loading="lazy" width="65" height="65" decoding="async"
+                        data-nimg="1" style="color:transparent"
+                        src="./images/mail_icon.png">
+                    </div>
+                    <div class="text"><span>ارسل لنا عبر البريد الإلكتروني</span><a
+                        href="mailto:Lujain1ha@gmail.com">Lujain1ha@gmail.com</a></div>
+                  </li>
+                  <li>
+                    <div class="img"><img alt="image" loading="lazy" width="65" height="65" decoding="async"
+                        data-nimg="1" style="color:transparent"
+                        src="./images/call_icon.png">
+                    </div>
+                    <div class="text"><span>اتصل بنا</span><a href="tel:059 662 2600">‭059 662 2600‬</a></div>
+                  </li>
+                  <li>
+                    <div class="img"><img alt="image" loading="lazy" width="65" height="65" decoding="async"
+                        data-nimg="1" style="color:transparent"
+                        src="./images/location_icon.png">
+                    </div>
+                    <div class="text"><span> زورونا</span>
+                      <p>Unnamed Road, الرياض 14274،, Riyadh 14274, Saudi Arabia</p>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer>
+      <p>© 2023 فرسان العليا</p>
+    </footer>
+  </div>
+  <!-- Page-wrapper-End -->
+   <!-- Map Section Start -->
+   <section class="row_am map_section">
+    <div class="container">
+      <div class="map_inner">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3626.479434921165!2d46.835693375363924!3d24.641620578072764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDM4JzI5LjgiTiA0NsKwNTAnMTcuOCJF!5e0!3m2!1sen!2seg!4v1693876928291!5m2!1sen!2seg"
+          width="100%" height="510" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- Map Section End -->
+  <!-- Footer-Section start -->
+  <footer>
+
+
+    <!-- last footer -->
+    <div class="bottom_footer">
+      <!-- container start -->
+      <div class="container">
+        <!-- row start -->
+        <div class="row">
+          <div class="col-md-6">
+            <p>© Copyrights 2022. All rights reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <p class="developer_text">Design & developed by <a href="https://themeforest.net/user/kalanidhithemes"
+                target="blank">Kalanidhi Themes</a></p>
+          </div>
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </div>
+
+    <!-- go top button -->
+    <div class="go_top">
+      <span><img src="images/go_top.png" alt="image"></span>
+    </div>
+  </footer>
+  <!-- Footer-Section end -->
+  <!-- Jquery-js-Link -->
+  <script src="js/jquery.js"></script>
+  <!-- owl-js-Link -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- bootstrap-js-Link -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- aos-js-Link -->
+  <script src="js/aos.js"></script>
+  <!-- main-js-Link -->
+  <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
